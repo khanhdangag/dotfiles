@@ -2,7 +2,7 @@ git pull origin master
 while read f; do
     echo "Backup file $f..."
     cp -rf $HOME/$f ./
-done < Dotfiles
+done < .dotfiles
 echo "Backup files done, please commit!"
 
 git add . -A
