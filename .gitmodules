@@ -19,3 +19,6 @@
 [submodule ".vim/pack/plugin/start/vim-multiple-cursors"]
 	path = .vim/pack/plugin/start/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule ".vim/pack/plugin/start/youcompleteme"]
+	path = .vim/pack/plugin/start/youcompleteme
+	url = https://github.com/Valloric/YouCompleteMe.git
