@@ -1,3 +1,9 @@
 [submodule ".vim/pack/plugin/start/vim-airline"]
 	path = .vim/pack/plugin/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule ".vim/pack/plugin/start/nerdtree"]
+	path = .vim/pack/plugin/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/pack/plugin/start/lightline"]
+	path = .vim/pack/plugin/start/lightline
+	url = https://github.com/itchyny/lightline.vim.git
