@@ -7,3 +7,6 @@
 [submodule ".vim/pack/plugin/start/lightline"]
 	path = .vim/pack/plugin/start/lightline
 	url = https://github.com/itchyny/lightline.vim.git
+[submodule ".vim/pack/plugin/start/ale"]
+	path = .vim/pack/plugin/start/ale
+	url = https://github.com/w0rp/ale.git
