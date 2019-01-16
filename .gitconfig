@@ -1,0 +1,12 @@
+[user]
+	name = khanhdang
+	email =	khanhdangquocag97@gmail.com
+[github]
+	user =khanhdangag
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = nano
+	filemode = false
+	trustctime = false
+	autocrlf = input
+
