@@ -1,4 +1,7 @@
 
+set number
+set relativenumber
+
 
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp', '\.git', 'node_modules', 'venv']
