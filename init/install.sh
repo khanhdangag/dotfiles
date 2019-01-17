@@ -2,7 +2,7 @@
 
 # Get dotfiles installation directory
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
+echo $DOTFILES_DIR
 ln -sf "$DOTFILES_DIR/.gitcfg/.gitconfig" ~
 ln -sf "$DOTFILES_DIR/.gitcfg/.gitignore_global" ~
 ln -sf "$DOTFILES_DIR/.zsh/.zshrc" ~
