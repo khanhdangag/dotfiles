@@ -10,3 +10,4 @@ ln -sf "$DOTFILES_DIR/.zsh/.zsh_exports" ~
 ln -sf "$DOTFILES_DIR/.zsh/.zsh_aliases" ~
 ln -sf "$DOTFILES_DIR/.vim" ~
 ln -sf "$DOTFILES_DIR/.vim/vimrc" ~/.vimrc
+ln -sf "$DOTFILES_DIR/.oh-my-zsh" ~/.oh-my-zsh
