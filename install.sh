@@ -11,3 +11,7 @@ ln -sf "$DOTFILES_DIR/.zsh/.zsh_aliases" ~
 ln -sf "$DOTFILES_DIR/.vim" ~
 ln -sf "$DOTFILES_DIR/.vim/vimrc" ~/.vimrc
 ln -sf "$DOTFILES_DIR/.oh-my-zsh" ~/.oh-my-zsh
+
+#settup workspace 
+mkdir -p workspace
+
