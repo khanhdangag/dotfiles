@@ -1,6 +1,6 @@
 # Common shortcuts
 alias reload="source ~/.zshrc"
-
+alias jupyter="conda activate jupyter; cd ~/workspace/notebook; jupyter notebook"
 
 
 # Directory traversal
