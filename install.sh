@@ -14,4 +14,8 @@ ln -sf "$DOTFILES_DIR/.oh-my-zsh" ~/.oh-my-zsh
 
 #settup workspace 
 mkdir -p workspace
+#install sdkman
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+#install nvm
 
