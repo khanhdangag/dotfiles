@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+    mongo:
+        container_name: mongo
+        image: mongo:latest
+        volumes:
+            - ./data/mongo:/data/db
+        ports:
+            - "27017:27017"
+        user: "1000:1000"
+        restart: always
+    redis:
+        container_name: redis
+        image: redis:alpine
+        command: ["redis-server", "--appendonly", "yes"]
+        volumes:
+            - ./data/redis:/data
+            - ./config/redis/redis.conf:/usr/local/etc/redis/redis.conf
+        user: "1000:1000"
+        ports:
+            - "6379:6379"
+        networks:
+            - common
+        restart: always
+    postgres:
+        container_name: postgres
+        image: postgres:alpine
+        restart: always
+        ports:
+            - "5432:5432"
+        user: "1000:1000"
+        volumes: 
+            - ./data/postgres:/var/lib/postgresql/data
+            - /etc/passwd:/etc/passwd:ro
+            - ./config/postgresql/init_script:/docker-entrypoint-initdb.d
+        networks: 
+            - common
+        environment: 
+            - POSTGRES_USER=khanhdang
+            - POSTGRES_PASSWORD=Khanh865303
+            - POSTGRES_DB=default
+            - POSTGRES_MULTIPLE_DATABASES=db1,db2,db3
+
+networks:
+    common:
