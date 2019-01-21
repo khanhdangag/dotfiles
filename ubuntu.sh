@@ -12,3 +12,11 @@ for i in $list_package; do
     echo "------------------------------------------------------------"
     sudo apt install $i
 done
+
+
+sudo snap install discord
+sudo snap install intellij-idea-ultimate --classic
+sudo snap install pycharm-professional --classic
+sudo snap install redis-desktop-manager
+
+
