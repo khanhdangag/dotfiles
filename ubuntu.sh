@@ -6,7 +6,10 @@ list_package="htop
 	vim 
 	texlive-latex-extra 
 	steam-installer
-	zsh"
+	zsh
+	net-tools
+	
+	"
 for i in $list_package; do
     echo "installing $i"
     echo "------------------------------------------------------------"
@@ -19,7 +22,4 @@ sudo snap install intellij-idea-ultimate --classic
 sudo snap install pycharm-professional --classic
 sudo snap install redis-desktop-manager
 
-#install sdkman
- 16 curl -s "https://get.sdkman.io" | bash
- 17 source "$HOME/.sdkman/bin/sdkman-init.sh"
 

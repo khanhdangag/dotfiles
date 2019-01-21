@@ -1,5 +1,5 @@
 #zmodload zsh/zprof 
-neofetch
+#neofetch
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -68,7 +68,7 @@ plugins=(
   git
 )
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
