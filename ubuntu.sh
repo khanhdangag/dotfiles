@@ -23,3 +23,4 @@ sudo snap install pycharm-professional --classic
 sudo snap install redis-desktop-manager
 sudo snap install datagrip --classic
 
+
