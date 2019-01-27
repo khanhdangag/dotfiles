@@ -22,7 +22,8 @@ list_package="htop
 	oracle-java11-installer
 	gnome-tweak-tool
 	gnome-shell
-	neofetch	
+	neofetch
+	cmus	
 	"
 
 list_python="
