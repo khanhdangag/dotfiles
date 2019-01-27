@@ -23,12 +23,8 @@ list_package="htop
 	gnome-tweak-tool
 	gnome-shell
 	neofetch
-	cmus	
-	"
-
-list_python="
-	virtualenv 
-	virtualenvwrapper
+	cmus
+	tmux	
 	"
 
 for j in $list_repo; do
@@ -40,12 +36,6 @@ for i in $list_package; do
     echo "------------------------------------------------------------"
     sudo apt install -y $i
 done
-
-for k in $list_python; do
-    sudo -H pip3 install $k
-done  
-
-curl https://pyenv.run | bash
 
 
 
