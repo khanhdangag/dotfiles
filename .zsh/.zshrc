@@ -1,5 +1,5 @@
 #zmodload zsh/zprof 
-#neofetch
+neofetch
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -122,27 +122,27 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh_exports
 source $HOME/.zsh_aliases
 
-
-# added by Anaconda3 2018.12 installer
-# >>> conda init >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/khanhdang/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
-if [ $? -eq 0 ]; then
-   \eval "$__conda_setup"
-else
-	if [ -f "/home/khanhdang/anaconda3/etc/profile.d/conda.sh" ]; then
-           . "/home/khanhdang/anaconda3/etc/profile.d/conda.sh"
-           CONDA_CHANGEPS1=false conda activate base
-       	else
-           \export PATH="/home/khanhdang/anaconda3/bin:$PATH"
-       	fi
-fi
-unset __conda_setup
- # <<< conda init <<<
+#NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/khanhdang/.sdkman"
 [[ -s "/home/khanhdang/.sdkman/bin/sdkman-init.sh" ]] && source "/home/khanhdang/.sdkman/bin/sdkman-init.sh"
+#
+#
+#
+#virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/workspace
+export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source /usr/local/bin/virtualenvwrapper_lazy.sh
+#
+#Pyenv
+#
+export PATH="/home/khanhdang/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 #zprof
