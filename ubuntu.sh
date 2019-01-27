@@ -3,6 +3,7 @@
 list_repo="
 	ppa:webupd8team/java
 	ppa:linuxuprising/java
+	ppa:dawidd0811/neofetch
 "
 
 list_package="htop 
@@ -20,7 +21,8 @@ list_package="htop
 	oracle-java8-installer
 	oracle-java11-installer
 	gnome-tweak-tool
-	gnome-shell	
+	gnome-shell
+	neofetch	
 	"
 
 for j in $list_repo; do
