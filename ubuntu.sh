@@ -8,7 +8,9 @@ list_package="htop
 	steam-installer
 	zsh
 	net-tools
-	
+    	libvulkan1 
+	libvulkan-dev 
+	vulkan-utils	
 	"
 for i in $list_package; do
     echo "installing $i"
