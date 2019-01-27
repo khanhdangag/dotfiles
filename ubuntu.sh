@@ -15,7 +15,7 @@ list_package="htop
 for i in $list_package; do
     echo "installing $i"
     echo "------------------------------------------------------------"
-    sudo apt install $i
+    sudo apt install -y $i
 done
 
 #install package from snap
