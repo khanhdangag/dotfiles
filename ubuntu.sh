@@ -1,4 +1,10 @@
 #!/bin/bash
+
+list_repo="
+	ppa:webupd8team/java
+	ppa:linuxuprising/java
+"
+
 list_package="htop 
 	python3-pip 
 	python3-dev 
@@ -10,8 +16,17 @@ list_package="htop
 	net-tools
     	libvulkan1 
 	libvulkan-dev 
-	vulkan-utils	
+	vulkan-utils
+	oracle-java8-installer
+	oracle-java11-installer
+	gnome-tweak-tool
+	gnome-shell	
 	"
+
+for j in $list_repo; do
+    sudo add-apt-repository $j
+done
+
 for i in $list_package; do
     echo "installing $i"
     echo "------------------------------------------------------------"
