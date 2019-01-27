@@ -4,7 +4,7 @@ list_repo="
 	ppa:webupd8team/java
 	ppa:linuxuprising/java
 	ppa:dawidd0811/neofetch
-"
+	"
 
 list_package="htop 
 	python3-pip 
@@ -25,6 +25,11 @@ list_package="htop
 	neofetch	
 	"
 
+list_python="
+	virtualenv 
+	virtualenvwrapper
+	"
+
 for j in $list_repo; do
     sudo add-apt-repository $j
 done
@@ -34,6 +39,14 @@ for i in $list_package; do
     echo "------------------------------------------------------------"
     sudo apt install -y $i
 done
+
+for k in $list_python; do
+    sudo -H pip3 install $k
+done  
+
+curl https://pyenv.run | bash
+
+
 
 #install package from snap
 sudo snap install discord
