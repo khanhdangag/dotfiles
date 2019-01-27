@@ -9,4 +9,5 @@ mkdir -p ~/workspace/persistent/config/postgres
 mkdir -p ~/workspace/persistent/config/redis
 
 cp -a docker-compose.yml ~/workspace/persistent
+cd ~/workspace/persistent
 docker-compose up
