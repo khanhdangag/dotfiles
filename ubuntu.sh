@@ -8,7 +8,8 @@ list_repo="
 
 list_package="htop 
 	python3-pip 
-	python3-dev 
+	python3-dev
+	python3-venv 
 	snapd 
 	vim 
 	texlive-latex-extra 
@@ -24,7 +25,24 @@ list_package="htop
 	gnome-shell
 	neofetch
 	cmus
-	tmux	
+	tmux
+	make 
+	build-essential 
+	libssl-dev 
+	zlib1g-dev 
+	libbz2-dev 
+	libreadline-dev 
+	libsqlite3-dev 
+	wget 
+	curl 
+	llvm 
+	libncurses5-dev 
+	libncursesw5-dev 
+	xz-utils 
+	tk-dev 
+	libffi-dev 
+	liblzma-dev 
+	python-openssl	
 	"
 
 for j in $list_repo; do
