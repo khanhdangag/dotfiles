@@ -141,8 +141,8 @@ source /usr/local/bin/virtualenvwrapper_lazy.sh
 #
 #Pyenv
 #
-export PATH="/home/khanhdang/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+#export PATH="/home/khanhdang/.pyenv/bin:$PATH"
+#eval "$(pyenv init -)"
+#eval "$(pyenv virtualenv-init -)"
 
 #zprof

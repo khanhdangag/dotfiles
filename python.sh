@@ -9,4 +9,4 @@ for i in $list_package; do
 	sudo -H pip3 install $i
 done
 
-curl https://pyenv.run | bash
+#curl https://pyenv.run | bash
