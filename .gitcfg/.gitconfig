@@ -9,4 +9,5 @@
 	filemode = false
 	trustctime = false
 	autocrlf = input
-
+[commit]
+  template = ~/.gitmessage
