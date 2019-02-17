@@ -43,6 +43,7 @@ list_package="htop
 	libffi-dev 
 	liblzma-dev 
 	python-openssl	
+	ttf-mscorefonts-installer
 	"
 
 for j in $list_repo; do
