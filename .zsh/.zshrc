@@ -141,3 +141,7 @@ export PATH="/home/khanhdang/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 #zprof
+######Gooooooooooooooolang######
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/workspace/go_project
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
